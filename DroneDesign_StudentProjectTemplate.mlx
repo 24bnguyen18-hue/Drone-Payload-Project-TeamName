@@ -18,14 +18,8 @@ Interpretation of Results - Final Recommended Design Solution
 
 Break Down the Problem
 In the space below, define the problem statement:
-    Test at least two different drone arm designs and materials to maximize payload capacity 
-    while maintaining structural integrity in thrust-to-weight and finite element analysis.
 
 List the requirements, constraints, and success criteria for the project:
-    Our design must support a minimum payload of 0.5 kg.
-    Thrust-to-weight ratio of at least 2:1 to ensure safe and stable flight.
-    Maximize payload capacity, figure out the heaviest payload our design can carry while still 
-    being able to safely take off.
 
 What is your proposed solution?
 
@@ -46,7 +40,6 @@ Quadcopter drone with 4 motors and 4 propellers
 Each motor can provide up to 1kg thrust
 Acceleration due to gravity:  
 Total weight of the drone components without the arms or the payload: 1kg 
-
 The breakdown of the weight of each drone component is as follow:
 Battery = 0.3kg
 Each motor = 65g, 4 motors = 0.26kg
@@ -55,7 +48,6 @@ Each electronic speed controller = 30g, 4 electronic speed controllers = 0.12 kg
 Flight controller and electronics = 0.05kg
 Receiver/GPS = 0.03kg
 Drone frame (center body) excluding arms = 0.2kg
-
 % Insert your code here (or make use of helper functions and indicate where
 % they can be found). Ensure your code is well-documented.
 
@@ -87,7 +79,6 @@ Your design must meet a thrust-to-weight ratio of at least 2:1 to ensure safe an
 Your goal is calculate maximum payload capacity for each design and material option (i.e. what is the heaviest payload your drone design could carry while still allowing the drone to safely take off?)
 Ensure that the results of your analysis can be readily interpreted, e.g. in the form of a summary table or plot.
 Note: if you have two drone arm designs, the expected output should be 12 payload capacity estimates (2 designs across 6 materials options).
-
 % Insert your code in the spaces below (or make use of helper functions and indicate where
 % they can be found). Ensure your code is well-documented.
 
